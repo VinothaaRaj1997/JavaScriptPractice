@@ -6,7 +6,6 @@ test.beforeEach(async({page})=>
 }
 )
 
-
 test('Open Url and verify test', async ({ page }) => {
     console.log(await page.title());
     await expect(page).toHaveTitle("Moneycorp | Global Payments");
