@@ -1,0 +1,35 @@
+To run the JS program —  node name.js (eg. node basics.js)
+
+In JavaScript variables are very loosely typed 
+We can hold values with any type of data   
+
+Redeclaring:    var c = 10       redeclaring is possible in var
+                var c = 20       redeclaring not allowed in let
+                                 redeclaring not allowed in const
+                                               
+
+Reassigning:    var a = 5       let b = 2      reassigning is also possible in var
+                    a = 8           b = 3      reassigning  is possible in let
+                                               Reassigning is not possible in const 
+
+const - the value we assign will be constant in our entire script duration.
+
+# while loop:
+-------------
+if the expression is true this loop will keep on executing until this condition whatever we wrote inside this become false. 
+if this condition never become false, then the will go infinite times. (kill the terminal then it will gone).
+it can take any kind of expression as condition.
+we can't assign how many times the loop has to run.
+it will break only when the condition is false.
+we can run any statement also, bz while loop only looks if the condition is true, it can be anything.
+
+
+# do while loop:
+----------------
+one round of loop will run before it checks the condition
+no matter if the condition is true or false one round of loop will defenitely run. then only it checks the condition.  
+
+
+# for loop:
+-----------
+use for loop, when you know that how many times you have to run this loop 
